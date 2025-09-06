@@ -29,7 +29,7 @@ export async function generateMetdata(): Promise<Metadata> {
   const settings = await client.getSingle("settings");
 
   return {
-    title: settings.data.site_title || "Côte Royale Paris",
+    title: settings.data.site_title || "Blockchain Staking",
     description:
       settings.data.meta_description ||
       "Discover the exquisite collection of luxury fragrances by Côte Royale Paris",
