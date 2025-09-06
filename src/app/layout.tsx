@@ -32,7 +32,7 @@ export async function generateMetdata(): Promise<Metadata> {
     title: settings.data.site_title || "Blockchain Staking",
     description:
       settings.data.meta_description ||
-      "Discover the exquisite collection of luxury fragrances by Côte Royale Paris",
+      "Cryptocurrency Staking",
     openGraph: {
       images: isFilled.image(settings.data.fallback_og_image)
         ? [settings.data.fallback_og_image.url]
