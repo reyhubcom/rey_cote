@@ -25,7 +25,7 @@ const Video: FC<VideoProps> = ({ slice }) => {
         className="relative h-screen overflow-hidden md:aspect-video md:h-auto"
       >
         <iframe
-          src={`https://www.youtube.com/watch?v=ja_Irb5LS1k/${slice.primary.youtube_video_id}?autoplay=1&mute=1&loop=1&playlist=${slice.primary.youtube_video_id}`}
+          src={`https://www.youtube-nocookie.com/embed/${slice.primary.youtube_video_id}?autoplay=1&mute=1&loop=1&playlist=${slice.primary.youtube_video_id}`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           className="pointer-events-none absolute left-1/2 aspect-video h-full -translate-x-1/2"
         />
